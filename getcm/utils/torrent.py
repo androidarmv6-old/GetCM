@@ -228,7 +228,7 @@ class Torrent(object):
         return ''
 
     def create(self, data, full_path):
-        trackers = [["http://bacon.cyanogenmod.com:6969/announce"], ["udp://tracker.openbittorrent.com:80/announce"]]
+        trackers = [["http://bacon.androidarmv6.com:6969/announce"], ["udp://tracker.openbittorrent.com:80/announce"]]
 
         # Create torrent
         root = {}
